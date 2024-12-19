@@ -39,7 +39,7 @@ const ContactUs = () => {
           })}
         </div>
       </div>
-      <div className="contact-us">
+      <div className="send-message">
         <h2 className="section-title">Send us a message</h2>
         <div className="form-container">
           <form className="form">
