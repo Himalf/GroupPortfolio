@@ -28,7 +28,9 @@ const Navbar = () => {
       </h1>
       <div className="flex items-center gap-8">
         {navItems.map((val, i) => (
-          <div className="cursor-pointer text-lg font-semibold">{val.name}</div>
+          <a href={val.path} className="cursor-pointer text-lg font-semibold">
+            {val.name}
+          </a>
         ))}
       </div>
     </main>
