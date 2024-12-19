@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import HeroSection from "./components/homepage/HeroSection";
 
 function App() {
-
   return (
-   <main>
-
-   </main>
-  )
+    <main>
+      <HeroSection />
+    </main>
+  );
 }
 
-export default App
+export default App;
