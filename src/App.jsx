@@ -1,12 +1,16 @@
-import './App.css'
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 function App() {
-
   return (
-   <main>
-
-   </main>
-  )
+    <main>
+      <Router>
+        <Routes>
+          <Route />
+        </Routes>
+      </Router>
+      <Layout />
+    </main>
+  );
 }
 
-export default App
+export default App;
