@@ -1,3 +1,4 @@
+import ContactUs from "./components/ContactUs";
 import "./App.css";
 import Skills from "./Components/Skills/Skills";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -11,6 +12,7 @@ function App() {
         <Layout />
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<ContactUs />}/>
           <Route path="/skills" element={<Skills />} />
         </Routes>
       </Router>
