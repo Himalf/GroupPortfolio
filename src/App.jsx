@@ -1,10 +1,16 @@
-import "./App.css";
-import HeroSection from "./components/homepage/HeroSection";
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 function App() {
   return (
     <main>
-      <HeroSection />
+      <Router>
+        <Routes>
+          <Route />
+        </Routes>
+      </Router>
+      <Layout />
+
     </main>
   );
 }
