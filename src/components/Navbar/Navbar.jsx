@@ -21,7 +21,7 @@ const Navbar = () => {
   ];
   return (
     <main className=" w-full h-16 py-2 flex items-center justify-between px-8 bg-white sticky top-0 left-0">
-      <a href="#hero">
+      <a href="#home">
         <h1 className="flex flex-col justify-center cursor-pointer">
           <span className="text-3xl text-blue-600 font-extrabold">
             fuse<span className="font-light"> | machines</span>
