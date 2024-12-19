@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import ContactUs from "./components/ContactUs";
 
 function App() {
-
   return (
-   <main>
-
-   </main>
-  )
+    <main>
+      <ContactUs />
+    </main>
+  );
 }
 
-export default App
+export default App;
