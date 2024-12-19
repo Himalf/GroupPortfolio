@@ -4,18 +4,15 @@ import Skills from "./Components/Skills/Skills";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Homepage from "../src/components/homepage/HeroSection";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <main>
-      <Router>
-        <Layout />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/" element={<ContactUs />}/>
-          <Route path="/skills" element={<Skills />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Homepage />
+      <Skills />
+      <ContactUs />
     </main>
   );
 }
