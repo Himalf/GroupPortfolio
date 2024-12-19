@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 function App() {
@@ -9,6 +10,7 @@ function App() {
         </Routes>
       </Router>
       <Layout />
+
     </main>
   );
 }
