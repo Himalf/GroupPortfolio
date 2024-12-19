@@ -1,7 +1,7 @@
 import image from "../../assets/fuse machines.jpeg";
 const HeroSection = () => {
   return (
-    <section className="bg-[#0A192F] px-6 py-6">
+    <section id="home" className="bg-[#0A192F] px-6 py-6">
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-8 py-1 text-slate-200">
           <h3 className="text-xl">
